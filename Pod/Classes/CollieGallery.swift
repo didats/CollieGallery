@@ -24,7 +24,7 @@
 import UIKit
 
 /// Class used to display the gallery
-open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryViewDelegate {
+open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryViewDelegate, UICollectionViewDelegate, UICollectionViewDataSource {
     
     // MARK: - Private properties
     fileprivate let transitionManager = CollieGalleryTransitionManager()
@@ -91,6 +91,8 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
         }
     }
     
+    open var collectionImagePreview: UICollectionView!
+    
     // MARK: - Initializers
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -128,6 +130,49 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
         super.viewDidLoad()
         setupView()
     }
+    
+    
+    @available(iOS 9.0, *)
+    private func setupConstraint() {
+        
+        pagingScrollView.translatesAutoresizingMaskIntoConstraints = false
+        closeButton.translatesAutoresizingMaskIntoConstraints = false
+        actionButton?.translatesAutoresizingMaskIntoConstraints = false
+        progressTrackView?.translatesAutoresizingMaskIntoConstraints = false
+        progressBarView?.translatesAutoresizingMaskIntoConstraints = false
+        //captionView.translatesAutoresizingMaskIntoConstraints = false
+        collectionImagePreview.translatesAutoresizingMaskIntoConstraints = false
+        
+        var constraints: [NSLayoutConstraint] = []
+        if actionButton != nil {
+            constraints.append(contentsOf: [
+                actionButton!.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -20),
+                actionButton!.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 20),
+                actionButton!.widthAnchor.constraint(equalToConstant: 50),
+                actionButton!.heightAnchor.constraint(equalToConstant: 50),
+            ])
+        }
+        
+        
+        
+        constraints.append(contentsOf: [
+            closeButton.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 20),
+            closeButton.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 20),
+            closeButton.widthAnchor.constraint(equalToConstant: 50),
+            closeButton.heightAnchor.constraint(equalToConstant: 50),
+            
+//            captionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+//            captionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
+//            captionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -70),
+            
+            collectionImagePreview.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            collectionImagePreview.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            collectionImagePreview.heightAnchor.constraint(equalToConstant: 50),
+            collectionImagePreview.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50)
+        ])
+        NSLayoutConstraint.activate(constraints)
+    }
+    
     
     open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -203,6 +248,9 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
         }
         
         loadImagesNextToIndex(currentPageIndex)
+        
+        setupCollectionView()
+        setupConstraint()
         
     }
     
@@ -498,11 +546,11 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
     }
     
     fileprivate func getCloseButtonFrame(_ avaiableSize: CGSize) -> CGRect {
-        return CGRect(x: 0, y: 0, width: 50, height: 50)
+        return CGRect(x: 30, y: 30, width: 50, height: 50)
     }
     
     fileprivate func getActionButtonFrame(_ avaiableSize: CGSize) -> CGRect {
-        return CGRect(x: avaiableSize.width - 50, y: 0, width: 50, height: 50)
+        return CGRect(x: avaiableSize.width - 80, y: 30, width: 50, height: 50)
     }
     
     fileprivate func getCustomButtonFrame(_ avaiableSize: CGSize, forIndex index: Int) -> CGRect {
@@ -598,6 +646,7 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
         loadImagesNextToIndex(currentPageIndex)
         
         updateCaptionText()
+        collectionImagePreview.reloadData()
     }
 
     
@@ -651,6 +700,9 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
         loadImagesNextToIndex(currentPageIndex)
         pagingScrollView.setContentOffset(CGPoint(x: pagingScrollView.frame.size.width * CGFloat(index), y: 0), animated: animated)
         updateProgressBar()
+        
+        
+        collectionImagePreview.reloadData()
     }
     
     /**
@@ -675,5 +727,118 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
         transitioningDelegate = transitionManager
         
         sourceViewController.present(self, animated: type.animated, completion: nil)
+    }
+    
+    // collection view
+    @available(iOS 9.0, *)
+    func setupCollectionView() {
+        let flowLayout = UICollectionViewFlowLayout()
+        let space = 8.0 as CGFloat
+        // Set view cell size
+        flowLayout.itemSize = CGSize(width: 50, height: 50)
+        // Set left and right margins
+        flowLayout.minimumInteritemSpacing = space
+        // Set top and bottom margins
+        flowLayout.minimumLineSpacing = space
+        flowLayout.scrollDirection = .horizontal
+        // set up the collection view
+        collectionImagePreview = UICollectionView(frame: CGRect.zero, collectionViewLayout: flowLayout)
+        collectionImagePreview.isPagingEnabled = false
+        collectionImagePreview.backgroundColor = UIColor.clear
+        collectionImagePreview.register(DTCollectionCell.self, forCellWithReuseIdentifier: "Cell")
+        collectionImagePreview.backgroundColor = UIColor.clear
+        collectionImagePreview.dataSource = self
+        collectionImagePreview.delegate = self
+        collectionImagePreview.showsHorizontalScrollIndicator = false
+        collectionImagePreview.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(collectionImagePreview)
+        
+        
+    }
+    
+    // Collectionview delegate & datasource
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        scrollToIndex(indexPath.row, animated: true)
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return pictures.count
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! DTCollectionCell
+        cell.imageView.contentMode = .scaleAspectFill
+        cell.imageView.layer.masksToBounds = true
+        cell.imageView.layer.cornerRadius = 7.0
+        cell.imageView.clipsToBounds = true
+        cell.imageView.layer.borderWidth = 0.0
+        
+        let current = pictures[indexPath.row]
+        print("Current: \(current.url)")
+        print("Current: \(current.image)")
+        
+        if current.url == nil {
+            cell.imageView.image = current.image
+        }
+        else {
+            let request: URLRequest = URLRequest(url: URL(string: current.url)!)
+            let mainQueue = OperationQueue.main
+            NSURLConnection.sendAsynchronousRequest(request,
+                                                    queue: mainQueue,
+                                                    completionHandler:
+                { [weak self] response, data, error in
+                    if error == nil {
+                        let image = UIImage(data: data!)!
+                        
+                        DispatchQueue.main.async(execute: {
+                            cell.imageView.image = image
+                        })
+                    }
+            })
+        }
+        
+        return cell
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        
+        let current = cell as! DTCollectionCell
+        
+        if indexPath.row == currentPageIndex {
+            current.imageView.layer.borderColor = UIColor.white.cgColor
+            current.imageView.layer.borderWidth = 2.0
+        }
+        else {
+            current.imageView.layer.borderWidth = 0.0
+        }
+        
+    }
+}
+
+@available(iOS 9.0, *)
+class DTCollectionCell: UICollectionViewCell {
+    var imageView: UIImageView!
+    
+    /// if user can double tap or pinch to zoom
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        self.imageView = UIImageView(frame: CGRect.zero)
+        self.imageView.clipsToBounds = true
+        self.imageView.contentMode = .scaleAspectFit
+        self.imageView.translatesAutoresizingMaskIntoConstraints = false
+        
+        self.addSubview(self.imageView)
+        
+        NSLayoutConstraint.activate([
+            imageView.topAnchor.constraint(equalTo: topAnchor),
+            imageView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            imageView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            imageView.trailingAnchor.constraint(equalTo: trailingAnchor),
+        ])
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
 }
