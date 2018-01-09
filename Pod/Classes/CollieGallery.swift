@@ -773,11 +773,12 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
         cell.imageView.clipsToBounds = true
         cell.imageView.layer.borderWidth = 0.0
         
-        let current = pictures[indexPath.row]
-        print("Current: \(current.url)")
-        print("Current: \(current.image)")
+        var current = pictures[indexPath.row]
         
         if current.url == nil {
+            cell.imageView.image = current.image
+        }
+        else if current.image != nil {
             cell.imageView.image = current.image
         }
         else {
@@ -792,6 +793,7 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
                         
                         DispatchQueue.main.async(execute: {
                             cell.imageView.image = image
+                            current.image = image
                         })
                     }
             })

@@ -13,7 +13,8 @@ CollieGallery is a fullscreen image gallery with support for local and remote im
 ## Changes on this fork
 I have made a boxes of preview images on the lower screen, fix the place of the close button and share button on the iPhone X as well. Below are a preview of what changes I have made:
 
-![Preview](Docs/Images/newpreview.jpg =200x) 
+![Preview](https://github.com/didats/CollieGallery/raw/master/Docs/Images/newpreview.jpg){ width=10px }
+ 
 
 ## Installation
 
