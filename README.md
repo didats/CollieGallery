@@ -10,6 +10,11 @@ CollieGallery is a fullscreen image gallery with support for local and remote im
 ![Paging](Docs/Images/Paging.gif)
 ![Zoom](Docs/Images/Zoom.gif) 
 
+## Changes on this fork
+I have made a boxes of preview images on the lower screen, fix the place of the close button and share button on the iPhone X as well. Below are a preview of what changes I have made:
+
+![Preview](Docs/Images/newpreview.jpg) 
+
 ## Installation
 
 CollieGallery is available through [CocoaPods](http://cocoapods.org). To install
@@ -239,3 +244,5 @@ Guilherme Munhoz, g.araujo.munhoz@gmail.com
 ## License
 
 CollieGallery is available under the MIT license. See the LICENSE file for more info.
+
+
