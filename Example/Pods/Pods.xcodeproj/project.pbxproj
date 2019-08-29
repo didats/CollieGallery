@@ -7,234 +7,261 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08282EDC4F710B9329C2D6730B09F50A /* CollieGalleryAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0910E490CAA2B751EF9B638019A2F4C /* CollieGalleryAppearance.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		121CC7AA532CFFCB2BF5747844C581F0 /* CollieGalleryTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB32CB81519033ED841E44809547899 /* CollieGalleryTheme.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		15CE3874D78B4B5224DEF623F34CDB73 /* CollieGalleryTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4A502B0FFCD8799C4551E0898EB4A /* CollieGalleryTransitionManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		34328B591C446803DE42D56A87DBDBAE /* CollieGalleryPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F87AB9D2E0AEE0E68AA854B7E2B38 /* CollieGalleryPicture.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		40132222E7168E29C80500B8F8AD9D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		443888212FD15ACF4CBC0CC9C8A80F80 /* CollieGalleryOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B79B72368C82AC9FA32261A961823A /* CollieGalleryOptions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4930BC615B0663DB46CA11F6A46D83E8 /* CollieGalleryTransitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99FEA72EEBA269799D2A92D561A0C6D /* CollieGalleryTransitionProtocol.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		52B187225C93D6939BD8C2AE89EF8D26 /* CollieGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 471D515DF99D70BD21D1E5111DC91746 /* CollieGallery-dummy.m */; };
-		6DCAED2A2B6D514D75364EC131D738F8 /* CollieGalleryZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56220A995173B0E9F05BE27DF1446C6A /* CollieGalleryZoomTransition.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7D4F0B99E7029E899C61DEDC983D56D5 /* CollieGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E22C2E360C73C574ACB5546E1DBA247 /* CollieGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		948BCD09150069EE5A63BB3B4CF31411 /* CollieGalleryCustomAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFFFC92C47789516CD804E34C2AA699 /* CollieGalleryCustomAction.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9C1B06D7504BD5E32946C05A9F1A153A /* CollieGalleryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860598DCBE10A165E5906B2CF5FFE040 /* CollieGalleryViewDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9FEFFDF7086938E657747B14E82C0EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A5CB2A91A3CFEA29E2217A39AB3EF3D8 /* Pods-CollieGallery_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5F7F748B8A0CCACDECD32247EB0050 /* Pods-CollieGallery_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0DB83B0380478FF107BC54FC15B9DCE /* CollieGalleryDefaultTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2C3503A100A840DAAF2F8A97D7F11B /* CollieGalleryDefaultTransition.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C402453DD59B59EC1021D69546031156 /* Pods-CollieGallery_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4F13C3978E64B90F7BEB4AF38D178F /* Pods-CollieGallery_Example-dummy.m */; };
-		D8039E3BD89C739D2A8C79ED4E3EB3E2 /* CollieGalleryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408BDE21639EC3587099CA05B0A535A6 /* CollieGalleryDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DD0C0D8F6ACB2B12C0C76AC4ECB37DBB /* CollieGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02961E80A1328E4307310DDDFD6BEE /* CollieGalleryView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E3F958016759E8DC00153D6ABCC700B3 /* CollieGalleryCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C42FFEDC7984E51E3F1D202CA08D4A /* CollieGalleryCaptionView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E64A9DE85C603F5702C84E99E0DA84F2 /* CollieGalleryTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D72663586EF7502B4EAB6579AF8B24F /* CollieGalleryTransitionType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FB0C89541E660F5FC4D4726B0833DFB8 /* CollieGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE2B7D4C65413D311479E1C2B554C0 /* CollieGallery.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1402D95B91934FF9EC9837714931FFD5 /* CollieGalleryTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B0B6C6BAA810FC9E5CE89D48DD26BA /* CollieGalleryTransitionManager.swift */; };
+		35CC120F935533206AB4AD57CF5B0BD6 /* Pods-CollieGallery_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E2B657385CC88AF2B26D03150F9C40 /* Pods-CollieGallery_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FB1C22028CA76A4AD5C80C1674A100B /* CollieGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F8DC493450D84013F95AD7F804CE8C /* CollieGallery-dummy.m */; };
+		56149B43F289FC57A4BAF3701A88171D /* CollieGalleryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035AAE2C6357488B5168E184C494848 /* CollieGalleryViewDelegate.swift */; };
+		6E872C1DFD6F20F2496BD28936BC42CA /* Pods-CollieGallery_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C8F942C09D94DCB5F24672EC73169D /* Pods-CollieGallery_Example-dummy.m */; };
+		7212146B47CB988E54425F60B3844BBD /* CollieGalleryOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F0FC1982F6C9918A8B44279EB6B4D /* CollieGalleryOptions.swift */; };
+		76E6E0D6F7EC394D3EF2CE76534ECB3A /* CollieGalleryZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED91B13BCF64C12438F9BCB67C35EAF /* CollieGalleryZoomTransition.swift */; };
+		79A6561DE765587197BE677565AC3F1C /* CollieGalleryAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE380E334FF2235C80DCC4365BBED76 /* CollieGalleryAppearance.swift */; };
+		829790C61FBE975842E59334F3ED6752 /* CollieGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE29582C1B4E44B4EC8D104F9DC6E6 /* CollieGalleryView.swift */; };
+		85300551B46E52147DFAB80F71FCC52F /* CollieGalleryCustomAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB910161303E4BA7330F2D319BCB5B /* CollieGalleryCustomAction.swift */; };
+		91EE2CE574FCFE4E6CE03A189D3D9668 /* CollieGalleryTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED59D2DE4FFECA7889536403A284E58 /* CollieGalleryTransitionType.swift */; };
+		94AC20CC401B1238F3D571145164D449 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AD38431D8DED624857551D5A0C74C4CC /* CollieGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99621E0BE4CB7CEE275AA096CC11B11 /* CollieGallery.swift */; };
+		B28153944F154C6D51EF2BE1CD6946D7 /* CollieGalleryCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226C0D9F128C183F53431988159E882 /* CollieGalleryCaptionView.swift */; };
+		B5E90BE30DB69BA7EB8BF9B7E67CCEAC /* CollieGalleryTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1ED3B544EB470107C7240619A91C4A /* CollieGalleryTheme.swift */; };
+		BDD51C79003B1A75B7E748242B9E08E6 /* CollieGalleryTransitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3DC5C541016356996379C14831B99 /* CollieGalleryTransitionProtocol.swift */; };
+		C0D4EA250658C2EBC54C8BA0E34653E3 /* CollieGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDFD4949F48C93DF1AAF518852959310 /* CollieGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC30F5B60CD87D02BDC70B8BB782513E /* CollieGalleryDefaultTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD432B7D97DB71B311A195CB4118EE58 /* CollieGalleryDefaultTransition.swift */; };
+		E983157FEFD7141080F2FD7DCEB89582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EEFBC8A87C5AEFC0F3B5831CDBDCF237 /* CollieGalleryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11497B0A46956560EEEC7B63C1785667 /* CollieGalleryDelegate.swift */; };
+		F322213430E816DC0D4ED41B7B452688 /* CollieGalleryPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBF5F3882D9BD9E4A53FD27FD55678 /* CollieGalleryPicture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A51DBB02B76721C6C93083248DB17A60 /* PBXContainerItemProxy */ = {
+		A82117D122B5610CE15154F8CD44E58C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5DED89E16B5CF6BAEB29F6AF613D5E26;
+			remoteGlobalIDString = 85A2348ECDEAF2F07AAA6ADD8C9E17B6;
 			remoteInfo = CollieGallery;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB4A502B0FFCD8799C4551E0898EB4A /* CollieGalleryTransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryTransitionManager.swift; path = Pod/Classes/CollieGalleryTransitionManager.swift; sourceTree = "<group>"; };
-		0E7AD772B64492AFDF632DBD800B3C96 /* Pods-CollieGallery_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CollieGallery_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23B79B72368C82AC9FA32261A961823A /* CollieGalleryOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryOptions.swift; path = Pod/Classes/CollieGalleryOptions.swift; sourceTree = "<group>"; };
-		2B3F9A0E060CD2CCF9C08FC90A94E172 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E22C2E360C73C574ACB5546E1DBA247 /* CollieGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollieGallery-umbrella.h"; sourceTree = "<group>"; };
-		31C42FFEDC7984E51E3F1D202CA08D4A /* CollieGalleryCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryCaptionView.swift; path = Pod/Classes/CollieGalleryCaptionView.swift; sourceTree = "<group>"; };
-		3F92D58C15DD744C44612849BB1334EC /* Pods_CollieGallery_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollieGallery_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		408BDE21639EC3587099CA05B0A535A6 /* CollieGalleryDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryDelegate.swift; path = Pod/Classes/CollieGalleryDelegate.swift; sourceTree = "<group>"; };
-		41D435C1CC174710D33244BFB9CCCA87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		471D515DF99D70BD21D1E5111DC91746 /* CollieGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CollieGallery-dummy.m"; sourceTree = "<group>"; };
-		4873947FE6BAA0F3014BD8132042F294 /* Pods-CollieGallery_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollieGallery_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D72663586EF7502B4EAB6579AF8B24F /* CollieGalleryTransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryTransitionType.swift; path = Pod/Classes/CollieGalleryTransitionType.swift; sourceTree = "<group>"; };
-		510B839148FE16928D2EDB06D010E7E9 /* CollieGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollieGallery-prefix.pch"; sourceTree = "<group>"; };
-		5526245EFF4DA1CD14BCE7811EEB9C36 /* Pods-CollieGallery_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollieGallery_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		56220A995173B0E9F05BE27DF1446C6A /* CollieGalleryZoomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryZoomTransition.swift; path = Pod/Classes/CollieGalleryZoomTransition.swift; sourceTree = "<group>"; };
-		5B5F7F748B8A0CCACDECD32247EB0050 /* Pods-CollieGallery_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CollieGallery_Example-umbrella.h"; sourceTree = "<group>"; };
-		5FFFFC92C47789516CD804E34C2AA699 /* CollieGalleryCustomAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryCustomAction.swift; path = Pod/Classes/CollieGalleryCustomAction.swift; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B2464A67E37A52CF5BAB43987809C9B /* Pods-CollieGallery_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollieGallery_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7DAE2B7D4C65413D311479E1C2B554C0 /* CollieGallery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGallery.swift; path = Pod/Classes/CollieGallery.swift; sourceTree = "<group>"; };
-		860598DCBE10A165E5906B2CF5FFE040 /* CollieGalleryViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryViewDelegate.swift; path = Pod/Classes/CollieGalleryViewDelegate.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1CC8BB6941048D7AB6430313BA9A1DC /* Pods-CollieGallery_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollieGallery_Example-resources.sh"; sourceTree = "<group>"; };
-		AAACFC606AE9FEA66765DBBF153FD6CE /* CollieGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollieGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD02961E80A1328E4307310DDDFD6BEE /* CollieGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryView.swift; path = Pod/Classes/CollieGalleryView.swift; sourceTree = "<group>"; };
-		AE5F87AB9D2E0AEE0E68AA854B7E2B38 /* CollieGalleryPicture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryPicture.swift; path = Pod/Classes/CollieGalleryPicture.swift; sourceTree = "<group>"; };
-		AF2C3503A100A840DAAF2F8A97D7F11B /* CollieGalleryDefaultTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryDefaultTransition.swift; path = Pod/Classes/CollieGalleryDefaultTransition.swift; sourceTree = "<group>"; };
-		CA4F13C3978E64B90F7BEB4AF38D178F /* Pods-CollieGallery_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CollieGallery_Example-dummy.m"; sourceTree = "<group>"; };
-		D9D0E7200A062D761AC7409CA8C4E6C3 /* Pods-CollieGallery_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CollieGallery_Example.modulemap"; sourceTree = "<group>"; };
-		DF9D1EFFF859152181FF22A3CC4239E7 /* CollieGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollieGallery.xcconfig; sourceTree = "<group>"; };
-		E563B5821083256AE1495D973263D12B /* CollieGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CollieGallery.modulemap; sourceTree = "<group>"; };
-		F0910E490CAA2B751EF9B638019A2F4C /* CollieGalleryAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryAppearance.swift; path = Pod/Classes/CollieGalleryAppearance.swift; sourceTree = "<group>"; };
-		F74F11D14128C82C72D4C3F34AC51042 /* Pods-CollieGallery_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollieGallery_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F99FEA72EEBA269799D2A92D561A0C6D /* CollieGalleryTransitionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryTransitionProtocol.swift; path = Pod/Classes/CollieGalleryTransitionProtocol.swift; sourceTree = "<group>"; };
-		FFB32CB81519033ED841E44809547899 /* CollieGalleryTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryTheme.swift; path = Pod/Classes/CollieGalleryTheme.swift; sourceTree = "<group>"; };
+		02BBA6DD6C3F67F8F2E0836197CB15CC /* Pods-CollieGallery_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CollieGallery_Example.modulemap"; sourceTree = "<group>"; };
+		04E2B657385CC88AF2B26D03150F9C40 /* Pods-CollieGallery_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CollieGallery_Example-umbrella.h"; sourceTree = "<group>"; };
+		0FE380E334FF2235C80DCC4365BBED76 /* CollieGalleryAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryAppearance.swift; path = Pod/Classes/CollieGalleryAppearance.swift; sourceTree = "<group>"; };
+		11497B0A46956560EEEC7B63C1785667 /* CollieGalleryDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryDelegate.swift; path = Pod/Classes/CollieGalleryDelegate.swift; sourceTree = "<group>"; };
+		12C8F942C09D94DCB5F24672EC73169D /* Pods-CollieGallery_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CollieGallery_Example-dummy.m"; sourceTree = "<group>"; };
+		1BBE787DA4B538E869A15824FF8241F6 /* CollieGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollieGallery-prefix.pch"; sourceTree = "<group>"; };
+		23B426E2AFE388FE6CB6D5F908A967AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46328CFF4E5819CDE1C64B739F61175E /* Zoom.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = Zoom.gif; path = Docs/Images/Zoom.gif; sourceTree = "<group>"; };
+		4EEB84BB2046B43062A3B45F71289280 /* Paging.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = Paging.gif; path = Docs/Images/Paging.gif; sourceTree = "<group>"; };
+		502FD3AB4297F1AA0155396FE6B25564 /* newpreview.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = newpreview.jpg; path = Docs/Images/newpreview.jpg; sourceTree = "<group>"; };
+		56B0B6C6BAA810FC9E5CE89D48DD26BA /* CollieGalleryTransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryTransitionManager.swift; path = Pod/Classes/CollieGalleryTransitionManager.swift; sourceTree = "<group>"; };
+		5BDE29582C1B4E44B4EC8D104F9DC6E6 /* CollieGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryView.swift; path = Pod/Classes/CollieGalleryView.swift; sourceTree = "<group>"; };
+		5F1ED3B544EB470107C7240619A91C4A /* CollieGalleryTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryTheme.swift; path = Pod/Classes/CollieGalleryTheme.swift; sourceTree = "<group>"; };
+		68A0EDFA5690E578A79A95E6292BF5EE /* Pods-CollieGallery_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollieGallery_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		68F8DC493450D84013F95AD7F804CE8C /* CollieGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CollieGallery-dummy.m"; sourceTree = "<group>"; };
+		70CCDEE34935819D29A0BD8FE8134983 /* CustomAction.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = CustomAction.png; path = Docs/Images/CustomAction.png; sourceTree = "<group>"; };
+		72DB910161303E4BA7330F2D319BCB5B /* CollieGalleryCustomAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryCustomAction.swift; path = Pod/Classes/CollieGalleryCustomAction.swift; sourceTree = "<group>"; };
+		900B0869182853A5102C0597778030AD /* CollieGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollieGallery.xcconfig; sourceTree = "<group>"; };
+		9035AAE2C6357488B5168E184C494848 /* CollieGalleryViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryViewDelegate.swift; path = Pod/Classes/CollieGalleryViewDelegate.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FEBF5F3882D9BD9E4A53FD27FD55678 /* CollieGalleryPicture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryPicture.swift; path = Pod/Classes/CollieGalleryPicture.swift; sourceTree = "<group>"; };
+		A866A295E48608F595D77E0FC3CF3886 /* ZoomTransition.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = ZoomTransition.gif; path = Docs/Images/ZoomTransition.gif; sourceTree = "<group>"; };
+		A94A23A6C9A550E63F395BDE61501CAA /* Pods-CollieGallery_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollieGallery_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AAD2AA0077D4E6AC75188257A4EC77C0 /* CollieGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollieGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB088A3608CC1FDF6AF45F2EDD07AEA0 /* CollieGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CollieGallery-Info.plist"; sourceTree = "<group>"; };
+		AC9F0FC1982F6C9918A8B44279EB6B4D /* CollieGalleryOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryOptions.swift; path = Pod/Classes/CollieGalleryOptions.swift; sourceTree = "<group>"; };
+		AE4D8FE01D30A798465162EFB42830A4 /* Pods-CollieGallery_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollieGallery_Example-Info.plist"; sourceTree = "<group>"; };
+		AEEAAEFF35CE9DB30208FE38AF210DCA /* Pods-CollieGallery_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollieGallery_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C3DC5C541016356996379C14831B99 /* CollieGalleryTransitionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryTransitionProtocol.swift; path = Pod/Classes/CollieGalleryTransitionProtocol.swift; sourceTree = "<group>"; };
+		B33809B9FA895282F5645A54E8F54F4D /* Pods-CollieGallery_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CollieGallery_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C226C0D9F128C183F53431988159E882 /* CollieGalleryCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryCaptionView.swift; path = Pod/Classes/CollieGalleryCaptionView.swift; sourceTree = "<group>"; };
+		C22F3834B3266C82C29F0A7865DF56BF /* Pods_CollieGallery_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollieGallery_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED59D2DE4FFECA7889536403A284E58 /* CollieGalleryTransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryTransitionType.swift; path = Pod/Classes/CollieGalleryTransitionType.swift; sourceTree = "<group>"; };
+		CED91B13BCF64C12438F9BCB67C35EAF /* CollieGalleryZoomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryZoomTransition.swift; path = Pod/Classes/CollieGalleryZoomTransition.swift; sourceTree = "<group>"; };
+		D0328F172573977E73A037DAA3B78A2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D558634404ABC3FE664455521D702CFC /* CollieGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CollieGallery.modulemap; sourceTree = "<group>"; };
+		DEBC794379FE8B122310C0FA11D4C011 /* Transition.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = Transition.gif; path = Docs/Images/Transition.gif; sourceTree = "<group>"; };
+		E433C5D4FEDB5A7686CB5885047F80C9 /* InteractiveTransition.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = InteractiveTransition.gif; path = Docs/Images/InteractiveTransition.gif; sourceTree = "<group>"; };
+		E99621E0BE4CB7CEE275AA096CC11B11 /* CollieGallery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGallery.swift; path = Pod/Classes/CollieGallery.swift; sourceTree = "<group>"; };
+		ECFB06B21F3AF7B89213011B3B3C68D3 /* Pods-CollieGallery_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollieGallery_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EDFD4949F48C93DF1AAF518852959310 /* CollieGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollieGallery-umbrella.h"; sourceTree = "<group>"; };
+		FD25E7D56B6FB3513EC95632E190FF2C /* CollieGallery.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CollieGallery.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD432B7D97DB71B311A195CB4118EE58 /* CollieGalleryDefaultTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollieGalleryDefaultTransition.swift; path = Pod/Classes/CollieGalleryDefaultTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E4A312BD8752754AA2D6899D88FD7FF /* Frameworks */ = {
+		078424AE53B512B4A35C0672A40E8B8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FEFFDF7086938E657747B14E82C0EA1 /* Foundation.framework in Frameworks */,
+				E983157FEFD7141080F2FD7DCEB89582 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49BA6928CE391C81A2A187B4AF724C19 /* Frameworks */ = {
+		6C14C8A1C0148565A8932E63B944B982 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40132222E7168E29C80500B8F8AD9D18 /* Foundation.framework in Frameworks */,
+				94AC20CC401B1238F3D571145164D449 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E279766BD65145ABEC5CAA7C8FD93BE /* Pods-CollieGallery_Example */ = {
+		146BDE5545DA4743C20709CDC0DEC4F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41D435C1CC174710D33244BFB9CCCA87 /* Info.plist */,
-				D9D0E7200A062D761AC7409CA8C4E6C3 /* Pods-CollieGallery_Example.modulemap */,
-				0E7AD772B64492AFDF632DBD800B3C96 /* Pods-CollieGallery_Example-acknowledgements.markdown */,
-				5526245EFF4DA1CD14BCE7811EEB9C36 /* Pods-CollieGallery_Example-acknowledgements.plist */,
-				CA4F13C3978E64B90F7BEB4AF38D178F /* Pods-CollieGallery_Example-dummy.m */,
-				6B2464A67E37A52CF5BAB43987809C9B /* Pods-CollieGallery_Example-frameworks.sh */,
-				A1CC8BB6941048D7AB6430313BA9A1DC /* Pods-CollieGallery_Example-resources.sh */,
-				5B5F7F748B8A0CCACDECD32247EB0050 /* Pods-CollieGallery_Example-umbrella.h */,
-				4873947FE6BAA0F3014BD8132042F294 /* Pods-CollieGallery_Example.debug.xcconfig */,
-				F74F11D14128C82C72D4C3F34AC51042 /* Pods-CollieGallery_Example.release.xcconfig */,
+				AAD2AA0077D4E6AC75188257A4EC77C0 /* CollieGallery.framework */,
+				C22F3834B3266C82C29F0A7865DF56BF /* Pods_CollieGallery_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2733C434A950FBC3D034EFA978012184 /* Pods-CollieGallery_Example */ = {
+			isa = PBXGroup;
+			children = (
+				02BBA6DD6C3F67F8F2E0836197CB15CC /* Pods-CollieGallery_Example.modulemap */,
+				B33809B9FA895282F5645A54E8F54F4D /* Pods-CollieGallery_Example-acknowledgements.markdown */,
+				68A0EDFA5690E578A79A95E6292BF5EE /* Pods-CollieGallery_Example-acknowledgements.plist */,
+				12C8F942C09D94DCB5F24672EC73169D /* Pods-CollieGallery_Example-dummy.m */,
+				A94A23A6C9A550E63F395BDE61501CAA /* Pods-CollieGallery_Example-frameworks.sh */,
+				AE4D8FE01D30A798465162EFB42830A4 /* Pods-CollieGallery_Example-Info.plist */,
+				04E2B657385CC88AF2B26D03150F9C40 /* Pods-CollieGallery_Example-umbrella.h */,
+				AEEAAEFF35CE9DB30208FE38AF210DCA /* Pods-CollieGallery_Example.debug.xcconfig */,
+				ECFB06B21F3AF7B89213011B3B3C68D3 /* Pods-CollieGallery_Example.release.xcconfig */,
 			);
 			name = "Pods-CollieGallery_Example";
 			path = "Target Support Files/Pods-CollieGallery_Example";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		2E8937FE3A8803958AF8B1483EE4BB89 /* CollieGallery */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FC1BBF8FAAF2A062B3248B638D8ABB4A /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9E2C48597FDAC1DE4B9F7E6F34AB6C72 /* Products */,
-				C22BDA917EBBDA4329707B4B46EB45AD /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9E2C48597FDAC1DE4B9F7E6F34AB6C72 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AAACFC606AE9FEA66765DBBF153FD6CE /* CollieGallery.framework */,
-				3F92D58C15DD744C44612849BB1334EC /* Pods_CollieGallery_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C22BDA917EBBDA4329707B4B46EB45AD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E279766BD65145ABEC5CAA7C8FD93BE /* Pods-CollieGallery_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C4558DCE5B5373E2C467DEE12AF1ACE2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E563B5821083256AE1495D973263D12B /* CollieGallery.modulemap */,
-				DF9D1EFFF859152181FF22A3CC4239E7 /* CollieGallery.xcconfig */,
-				471D515DF99D70BD21D1E5111DC91746 /* CollieGallery-dummy.m */,
-				510B839148FE16928D2EDB06D010E7E9 /* CollieGallery-prefix.pch */,
-				2E22C2E360C73C574ACB5546E1DBA247 /* CollieGallery-umbrella.h */,
-				2B3F9A0E060CD2CCF9C08FC90A94E172 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CollieGallery";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F6995699257D0C1AB723D0AB357CF5FF /* CollieGallery */ = {
-			isa = PBXGroup;
-			children = (
-				7DAE2B7D4C65413D311479E1C2B554C0 /* CollieGallery.swift */,
-				F0910E490CAA2B751EF9B638019A2F4C /* CollieGalleryAppearance.swift */,
-				31C42FFEDC7984E51E3F1D202CA08D4A /* CollieGalleryCaptionView.swift */,
-				5FFFFC92C47789516CD804E34C2AA699 /* CollieGalleryCustomAction.swift */,
-				AF2C3503A100A840DAAF2F8A97D7F11B /* CollieGalleryDefaultTransition.swift */,
-				408BDE21639EC3587099CA05B0A535A6 /* CollieGalleryDelegate.swift */,
-				23B79B72368C82AC9FA32261A961823A /* CollieGalleryOptions.swift */,
-				AE5F87AB9D2E0AEE0E68AA854B7E2B38 /* CollieGalleryPicture.swift */,
-				FFB32CB81519033ED841E44809547899 /* CollieGalleryTheme.swift */,
-				0CB4A502B0FFCD8799C4551E0898EB4A /* CollieGalleryTransitionManager.swift */,
-				F99FEA72EEBA269799D2A92D561A0C6D /* CollieGalleryTransitionProtocol.swift */,
-				4D72663586EF7502B4EAB6579AF8B24F /* CollieGalleryTransitionType.swift */,
-				AD02961E80A1328E4307310DDDFD6BEE /* CollieGalleryView.swift */,
-				860598DCBE10A165E5906B2CF5FFE040 /* CollieGalleryViewDelegate.swift */,
-				56220A995173B0E9F05BE27DF1446C6A /* CollieGalleryZoomTransition.swift */,
-				C4558DCE5B5373E2C467DEE12AF1ACE2 /* Support Files */,
+				E99621E0BE4CB7CEE275AA096CC11B11 /* CollieGallery.swift */,
+				0FE380E334FF2235C80DCC4365BBED76 /* CollieGalleryAppearance.swift */,
+				C226C0D9F128C183F53431988159E882 /* CollieGalleryCaptionView.swift */,
+				72DB910161303E4BA7330F2D319BCB5B /* CollieGalleryCustomAction.swift */,
+				FD432B7D97DB71B311A195CB4118EE58 /* CollieGalleryDefaultTransition.swift */,
+				11497B0A46956560EEEC7B63C1785667 /* CollieGalleryDelegate.swift */,
+				AC9F0FC1982F6C9918A8B44279EB6B4D /* CollieGalleryOptions.swift */,
+				9FEBF5F3882D9BD9E4A53FD27FD55678 /* CollieGalleryPicture.swift */,
+				5F1ED3B544EB470107C7240619A91C4A /* CollieGalleryTheme.swift */,
+				56B0B6C6BAA810FC9E5CE89D48DD26BA /* CollieGalleryTransitionManager.swift */,
+				B1C3DC5C541016356996379C14831B99 /* CollieGalleryTransitionProtocol.swift */,
+				CED59D2DE4FFECA7889536403A284E58 /* CollieGalleryTransitionType.swift */,
+				5BDE29582C1B4E44B4EC8D104F9DC6E6 /* CollieGalleryView.swift */,
+				9035AAE2C6357488B5168E184C494848 /* CollieGalleryViewDelegate.swift */,
+				CED91B13BCF64C12438F9BCB67C35EAF /* CollieGalleryZoomTransition.swift */,
+				5A1057A8749D5FBC829A4516AA0272BC /* Pod */,
+				E303D5FEFF6B50822BFC525F37CE8B13 /* Support Files */,
 			);
 			name = CollieGallery;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FC1BBF8FAAF2A062B3248B638D8ABB4A /* Development Pods */ = {
+		3FE628EFEB67C2419178D02F292FDBE3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F6995699257D0C1AB723D0AB357CF5FF /* CollieGallery */,
+				2733C434A950FBC3D034EFA978012184 /* Pods-CollieGallery_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A1057A8749D5FBC829A4516AA0272BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FD25E7D56B6FB3513EC95632E190FF2C /* CollieGallery.podspec */,
+				70CCDEE34935819D29A0BD8FE8134983 /* CustomAction.png */,
+				E433C5D4FEDB5A7686CB5885047F80C9 /* InteractiveTransition.gif */,
+				23B426E2AFE388FE6CB6D5F908A967AE /* LICENSE */,
+				502FD3AB4297F1AA0155396FE6B25564 /* newpreview.jpg */,
+				4EEB84BB2046B43062A3B45F71289280 /* Paging.gif */,
+				D0328F172573977E73A037DAA3B78A2E /* README.md */,
+				DEBC794379FE8B122310C0FA11D4C011 /* Transition.gif */,
+				46328CFF4E5819CDE1C64B739F61175E /* Zoom.gif */,
+				A866A295E48608F595D77E0FC3CF3886 /* ZoomTransition.gif */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		881B02173D28AC8FD63E507DEA69FE2E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E8937FE3A8803958AF8B1483EE4BB89 /* CollieGallery */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				881B02173D28AC8FD63E507DEA69FE2E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				146BDE5545DA4743C20709CDC0DEC4F8 /* Products */,
+				3FE628EFEB67C2419178D02F292FDBE3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E303D5FEFF6B50822BFC525F37CE8B13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D558634404ABC3FE664455521D702CFC /* CollieGallery.modulemap */,
+				900B0869182853A5102C0597778030AD /* CollieGallery.xcconfig */,
+				68F8DC493450D84013F95AD7F804CE8C /* CollieGallery-dummy.m */,
+				AB088A3608CC1FDF6AF45F2EDD07AEA0 /* CollieGallery-Info.plist */,
+				1BBE787DA4B538E869A15824FF8241F6 /* CollieGallery-prefix.pch */,
+				EDFD4949F48C93DF1AAF518852959310 /* CollieGallery-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CollieGallery";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4A43CAC44D621A3861A94FDB45968914 /* Headers */ = {
+		12398002F232DFEA30E05C1F7FD39560 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D4F0B99E7029E899C61DEDC983D56D5 /* CollieGallery-umbrella.h in Headers */,
+				35CC120F935533206AB4AD57CF5B0BD6 /* Pods-CollieGallery_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3FC3E53688F40CC0C174AF54B2461E1 /* Headers */ = {
+		1A12DFF9B563EE1864E3A9974C707454 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CB2A91A3CFEA29E2217A39AB3EF3D8 /* Pods-CollieGallery_Example-umbrella.h in Headers */,
+				C0D4EA250658C2EBC54C8BA0E34653E3 /* CollieGallery-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5DED89E16B5CF6BAEB29F6AF613D5E26 /* CollieGallery */ = {
+		85A2348ECDEAF2F07AAA6ADD8C9E17B6 /* CollieGallery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7DFD446D3AD1E6BD0F4C7131B31198C /* Build configuration list for PBXNativeTarget "CollieGallery" */;
+			buildConfigurationList = CBFAA876254CF46387460694347A00F2 /* Build configuration list for PBXNativeTarget "CollieGallery" */;
 			buildPhases = (
-				6A1AB9CA702E4C9AC46E91CA76DD9765 /* Sources */,
-				1E4A312BD8752754AA2D6899D88FD7FF /* Frameworks */,
-				4A43CAC44D621A3861A94FDB45968914 /* Headers */,
+				1A12DFF9B563EE1864E3A9974C707454 /* Headers */,
+				827C3ECE4F68341545FB6AC3D9861B5F /* Sources */,
+				6C14C8A1C0148565A8932E63B944B982 /* Frameworks */,
+				9D3C3F82F1490BB47DAA35FE62F2DBF9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -242,102 +269,121 @@
 			);
 			name = CollieGallery;
 			productName = CollieGallery;
-			productReference = AAACFC606AE9FEA66765DBBF153FD6CE /* CollieGallery.framework */;
+			productReference = AAD2AA0077D4E6AC75188257A4EC77C0 /* CollieGallery.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A593E3782727C4F48D53E751473F285C /* Pods-CollieGallery_Example */ = {
+		ABBDBCE8F92137795366E35BE5029646 /* Pods-CollieGallery_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDCA501B666F64BC3C40134D00FCB8DB /* Build configuration list for PBXNativeTarget "Pods-CollieGallery_Example" */;
+			buildConfigurationList = C299AD8216EE11ACD6E0F929D1C5A63E /* Build configuration list for PBXNativeTarget "Pods-CollieGallery_Example" */;
 			buildPhases = (
-				3C34F48249AA125D5D5D997FB83C8FCA /* Sources */,
-				49BA6928CE391C81A2A187B4AF724C19 /* Frameworks */,
-				E3FC3E53688F40CC0C174AF54B2461E1 /* Headers */,
+				12398002F232DFEA30E05C1F7FD39560 /* Headers */,
+				8EAF0374CF477A31E244D671F272D237 /* Sources */,
+				078424AE53B512B4A35C0672A40E8B8B /* Frameworks */,
+				CF909DFB3D6449485FBDC946B3CD7F3A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				15B0A31FD36EC84913119747BD13CDD1 /* PBXTargetDependency */,
+				4191CF2C85379128094AFD6FD282F80D /* PBXTargetDependency */,
 			);
 			name = "Pods-CollieGallery_Example";
 			productName = "Pods-CollieGallery_Example";
-			productReference = 3F92D58C15DD744C44612849BB1334EC /* Pods_CollieGallery_Example.framework */;
+			productReference = C22F3834B3266C82C29F0A7865DF56BF /* Pods_CollieGallery_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9E2C48597FDAC1DE4B9F7E6F34AB6C72 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 146BDE5545DA4743C20709CDC0DEC4F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DED89E16B5CF6BAEB29F6AF613D5E26 /* CollieGallery */,
-				A593E3782727C4F48D53E751473F285C /* Pods-CollieGallery_Example */,
+				85A2348ECDEAF2F07AAA6ADD8C9E17B6 /* CollieGallery */,
+				ABBDBCE8F92137795366E35BE5029646 /* Pods-CollieGallery_Example */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		3C34F48249AA125D5D5D997FB83C8FCA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		9D3C3F82F1490BB47DAA35FE62F2DBF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C402453DD59B59EC1021D69546031156 /* Pods-CollieGallery_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A1AB9CA702E4C9AC46E91CA76DD9765 /* Sources */ = {
+		CF909DFB3D6449485FBDC946B3CD7F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		827C3ECE4F68341545FB6AC3D9861B5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B187225C93D6939BD8C2AE89EF8D26 /* CollieGallery-dummy.m in Sources */,
-				FB0C89541E660F5FC4D4726B0833DFB8 /* CollieGallery.swift in Sources */,
-				08282EDC4F710B9329C2D6730B09F50A /* CollieGalleryAppearance.swift in Sources */,
-				E3F958016759E8DC00153D6ABCC700B3 /* CollieGalleryCaptionView.swift in Sources */,
-				948BCD09150069EE5A63BB3B4CF31411 /* CollieGalleryCustomAction.swift in Sources */,
-				B0DB83B0380478FF107BC54FC15B9DCE /* CollieGalleryDefaultTransition.swift in Sources */,
-				D8039E3BD89C739D2A8C79ED4E3EB3E2 /* CollieGalleryDelegate.swift in Sources */,
-				443888212FD15ACF4CBC0CC9C8A80F80 /* CollieGalleryOptions.swift in Sources */,
-				34328B591C446803DE42D56A87DBDBAE /* CollieGalleryPicture.swift in Sources */,
-				121CC7AA532CFFCB2BF5747844C581F0 /* CollieGalleryTheme.swift in Sources */,
-				15CE3874D78B4B5224DEF623F34CDB73 /* CollieGalleryTransitionManager.swift in Sources */,
-				4930BC615B0663DB46CA11F6A46D83E8 /* CollieGalleryTransitionProtocol.swift in Sources */,
-				E64A9DE85C603F5702C84E99E0DA84F2 /* CollieGalleryTransitionType.swift in Sources */,
-				DD0C0D8F6ACB2B12C0C76AC4ECB37DBB /* CollieGalleryView.swift in Sources */,
-				9C1B06D7504BD5E32946C05A9F1A153A /* CollieGalleryViewDelegate.swift in Sources */,
-				6DCAED2A2B6D514D75364EC131D738F8 /* CollieGalleryZoomTransition.swift in Sources */,
+				3FB1C22028CA76A4AD5C80C1674A100B /* CollieGallery-dummy.m in Sources */,
+				AD38431D8DED624857551D5A0C74C4CC /* CollieGallery.swift in Sources */,
+				79A6561DE765587197BE677565AC3F1C /* CollieGalleryAppearance.swift in Sources */,
+				B28153944F154C6D51EF2BE1CD6946D7 /* CollieGalleryCaptionView.swift in Sources */,
+				85300551B46E52147DFAB80F71FCC52F /* CollieGalleryCustomAction.swift in Sources */,
+				DC30F5B60CD87D02BDC70B8BB782513E /* CollieGalleryDefaultTransition.swift in Sources */,
+				EEFBC8A87C5AEFC0F3B5831CDBDCF237 /* CollieGalleryDelegate.swift in Sources */,
+				7212146B47CB988E54425F60B3844BBD /* CollieGalleryOptions.swift in Sources */,
+				F322213430E816DC0D4ED41B7B452688 /* CollieGalleryPicture.swift in Sources */,
+				B5E90BE30DB69BA7EB8BF9B7E67CCEAC /* CollieGalleryTheme.swift in Sources */,
+				1402D95B91934FF9EC9837714931FFD5 /* CollieGalleryTransitionManager.swift in Sources */,
+				BDD51C79003B1A75B7E748242B9E08E6 /* CollieGalleryTransitionProtocol.swift in Sources */,
+				91EE2CE574FCFE4E6CE03A189D3D9668 /* CollieGalleryTransitionType.swift in Sources */,
+				829790C61FBE975842E59334F3ED6752 /* CollieGalleryView.swift in Sources */,
+				56149B43F289FC57A4BAF3701A88171D /* CollieGalleryViewDelegate.swift in Sources */,
+				76E6E0D6F7EC394D3EF2CE76534ECB3A /* CollieGalleryZoomTransition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAF0374CF477A31E244D671F272D237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E872C1DFD6F20F2496BD28936BC42CA /* Pods-CollieGallery_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15B0A31FD36EC84913119747BD13CDD1 /* PBXTargetDependency */ = {
+		4191CF2C85379128094AFD6FD282F80D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CollieGallery;
-			target = 5DED89E16B5CF6BAEB29F6AF613D5E26 /* CollieGallery */;
-			targetProxy = A51DBB02B76721C6C93083248DB17A60 /* PBXContainerItemProxy */;
+			target = 85A2348ECDEAF2F07AAA6ADD8C9E17B6 /* CollieGallery */;
+			targetProxy = A82117D122B5610CE15154F8CD44E58C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A1557925831D26BB810090187698D59 /* Release */ = {
+		13C22B14926145DF931DE2815DF597C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74F11D14128C82C72D4C3F34AC51042 /* Pods-CollieGallery_Example.release.xcconfig */;
+			baseConfigurationReference = ECFB06B21F3AF7B89213011B3B3C68D3 /* Pods-CollieGallery_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -347,7 +393,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CollieGallery_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CollieGallery_Example/Pods-CollieGallery_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -357,10 +403,9 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CollieGallery_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -368,9 +413,42 @@
 			};
 			name = Release;
 		};
-		31C16D6EFE97801611BB81B92B9BDAC4 /* Release */ = {
+		51A70C97C52D9BE841A9D3B33B712B4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF9D1EFFF859152181FF22A3CC4239E7 /* CollieGallery.xcconfig */;
+			baseConfigurationReference = AEEAAEFF35CE9DB30208FE38AF210DCA /* Pods-CollieGallery_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CollieGallery_Example/Pods-CollieGallery_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CollieGallery_Example/Pods-CollieGallery_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6921921ED8DD9C24810F0667FDDCC5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900B0869182853A5102C0597778030AD /* CollieGallery.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -382,17 +460,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CollieGallery/CollieGallery-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CollieGallery/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CollieGallery/CollieGallery-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CollieGallery/CollieGallery.modulemap";
+				PRODUCT_MODULE_NAME = CollieGallery;
 				PRODUCT_NAME = CollieGallery;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -400,72 +478,7 @@
 			};
 			name = Release;
 		};
-		3AD86B8068F2CF366063644E9E4950D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF9D1EFFF859152181FF22A3CC4239E7 /* CollieGallery.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CollieGallery/CollieGallery-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CollieGallery/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CollieGallery/CollieGallery.modulemap";
-				PRODUCT_NAME = CollieGallery;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		950A355883A5A61D3745B0F9601445FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4873947FE6BAA0F3014BD8132042F294 /* Pods-CollieGallery_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CollieGallery_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CollieGallery_Example/Pods-CollieGallery_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CollieGallery_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -475,10 +488,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -486,6 +501,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -494,7 +510,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -511,16 +526,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -530,10 +547,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -541,6 +560,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -549,7 +569,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -569,48 +588,81 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AFF721368F52209B569FDDC0596A8144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900B0869182853A5102C0597778030AD /* CollieGallery.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CollieGallery/CollieGallery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CollieGallery/CollieGallery-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CollieGallery/CollieGallery.modulemap";
+				PRODUCT_MODULE_NAME = CollieGallery;
+				PRODUCT_NAME = CollieGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7DFD446D3AD1E6BD0F4C7131B31198C /* Build configuration list for PBXNativeTarget "CollieGallery" */ = {
+		C299AD8216EE11ACD6E0F929D1C5A63E /* Build configuration list for PBXNativeTarget "Pods-CollieGallery_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AD86B8068F2CF366063644E9E4950D3 /* Debug */,
-				31C16D6EFE97801611BB81B92B9BDAC4 /* Release */,
+				51A70C97C52D9BE841A9D3B33B712B4F /* Debug */,
+				13C22B14926145DF931DE2815DF597C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDCA501B666F64BC3C40134D00FCB8DB /* Build configuration list for PBXNativeTarget "Pods-CollieGallery_Example" */ = {
+		CBFAA876254CF46387460694347A00F2 /* Build configuration list for PBXNativeTarget "CollieGallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				950A355883A5A61D3745B0F9601445FC /* Debug */,
-				1A1557925831D26BB810090187698D59 /* Release */,
+				AFF721368F52209B569FDDC0596A8144 /* Debug */,
+				6921921ED8DD9C24810F0667FDDCC5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

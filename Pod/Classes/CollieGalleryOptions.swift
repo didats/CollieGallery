@@ -27,50 +27,50 @@ import UIKit
 open class CollieGalleryOptions: NSObject {
     
     /// Shared options between all new instances of the gallery
-    open static var sharedOptions = CollieGalleryOptions()
+    public static var sharedOptions = CollieGalleryOptions()
     
     /// The amount of the parallax effect from 0 to 1
-    open var parallaxFactor: CGFloat = 0.2
+    public var parallaxFactor: CGFloat = 0.2
     
     /// Indicates weather the pictures can be zoomed or not
-    open var enableZoom: Bool = true
+    public var enableZoom: Bool = true
     
     /// The maximum scale that images can reach when zoomed
-    open var maximumZoomScale: CGFloat = 5.0
+    public var maximumZoomScale: CGFloat = 5.0
     
     /// Indicates weather the progress should be displayed or not
-    open var showProgress: Bool = true
+    public var showProgress: Bool = true
     
     /// Indicates weather the caption view should be displayed or not
-    open var showCaptionView: Bool = false
+    public var showCaptionView: Bool = false
     
     /// The amount of pictures that should be preloaded next to the current displayed picture
-    open var preLoadedImages: Int = 3
+    public var preLoadedImages: Int = 3
     
     /// The space between each scrollview's page
-    open var gapBetweenPages: CGFloat = 10.0
+    public var gapBetweenPages: CGFloat = 10.0
     
     /// Open gallery at specified page
-    open var openAtIndex: Int = 0
+    public var openAtIndex: Int = 0
 
     /// Custom close button image name
-    open var customCloseImageName: String? = nil
+    public var customCloseImageName: String? = nil
     
     /// Custom options button image name
-    open var customOptionsImageName: String? = nil
+    public var customOptionsImageName: String? = nil
     
     /// Indicates if the user should be able to save the picture
-    open var enableSave: Bool = true
+    public var enableSave: Bool = true
     
     /// Indicates if the user should be able to dismiss the gallery interactively with a pan gesture
-    open var enableInteractiveDismiss: Bool = true
+    public var enableInteractiveDismiss: Bool = true
     
     /// Add fire custom block instead of showing default share menu
-    open var customOptionsBlock: (() -> Void)?
+    public var customOptionsBlock: (() -> Void)?
     
     /// Array with the custom buttons
-    open var customActions: [CollieGalleryCustomAction] = []
+    public var customActions: [CollieGalleryCustomAction] = []
     
     /// Default actions to exclude from the gallery actions (UIActivityType Constants)
-    open var excludedActions: [UIActivityType] = []
+    public var excludedActions: [UIActivity.ActivityType] = []
 }
