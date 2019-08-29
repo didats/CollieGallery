@@ -11,11 +11,17 @@ CollieGallery is a fullscreen image gallery with support for local and remote im
 ![Zoom](Docs/Images/Zoom.gif) 
 
 ## Changes on this fork
+August 29th, 2019 
+Migrate to Swift 5.0
+
+January 9th, 2018
 I have made a boxes of preview images on the lower screen, fix the place of the close button and share button on the iPhone X as well. Below are a preview of what changes I have made:
 
-![Preview](https://github.com/didats/CollieGallery/raw/master/Docs/Images/newpreview.jpg){ width=10px }
+![Preview](https://github.com/didats/CollieGallery/raw/master/Docs/Images/newpreview.jpg)
  
-
+   
+  
+  
 ## Installation
 
 CollieGallery is available through [CocoaPods](http://cocoapods.org). To install
