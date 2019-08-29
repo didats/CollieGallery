@@ -6,16 +6,12 @@
 
 CollieGallery is a fullscreen image gallery with support for local and remote images and it has a lot of built-in features like zooming, panning, interactive transitions and more! The gallery is highly customizable and it’s really easy to make it look and work the way you want.
 
-![Interactive Transition](Docs/Images/InteractiveTransition.gif) 
-![Paging](Docs/Images/Paging.gif)
-![Zoom](Docs/Images/Zoom.gif) 
-
 ## Changes on this fork
-August 29th, 2019 
-Migrate to Swift 5.0
-
-January 9th, 2018
-I have made a boxes of preview images on the lower screen, fix the place of the close button and share button on the iPhone X as well. Below are a preview of what changes I have made:
+August 29th, 2019  
+Migrate to Swift 5.0  
+  
+January 9th, 2018  
+I have made a boxes of preview images on the lower screen, fix the place of the close button and share button on the iPhone X as well. Below are a preview of what changes I have made:  
 
 ![Preview](https://github.com/didats/CollieGallery/raw/master/Docs/Images/newpreview.jpg)
  
